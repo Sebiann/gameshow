@@ -26,10 +26,10 @@ jobs:
 
             # Set a custom output file path to work with the generated ZIP file
             # without needing to download its artifact in a separate step
-            output_file_path = '/tmp/Seb-Server-RP.zip'
+            output_file_path = '/tmp/Seb-Gameshow-RP.zip'
       - name: Calculate SHA1
         run: |
-          echo "PACK_SHA1=$(sha1sum /tmp/Seb-Server-RP.zip | cut --delimiter " " --fields 1)" >> "$GITHUB_ENV"
+          echo "PACK_SHA1=$(sha1sum /tmp/Seb-Gameshow-RP.zip | cut --delimiter " " --fields 1)" >> "$GITHUB_ENV"
       - name: Get last commit message
         run: |
           echo "PACK_MSG=$(git log -1 --pretty=%s)" >> "$GITHUB_ENV"
@@ -40,5 +40,5 @@ jobs:
             SHA1: ${{ env.PACK_SHA1 }}
             ${{ env.PACK_MSG }}
           tag_name: ${{ github.ref_name }}-v${{ github.run_number }}
-          files: /tmp/Seb-Server-RP.zip
+          files: /tmp/Seb-Gameshow-RP.zip
           
