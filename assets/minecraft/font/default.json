@@ -1,0 +1,11 @@
+{
+    "providers": [
+		{
+			"type":"bitmap",
+			"file":"font/100.png",
+			"ascent":200,
+			"height":200,
+			"chars":["\uC100"]
+		}
+	]
+}
