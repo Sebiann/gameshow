@@ -3,9 +3,37 @@
 		{
 			"type":"bitmap",
 			"file":"font/100.png",
-			"ascent":200,
-			"height":200,
-			"chars":["\uC100"]
+			"ascent":150,
+			"height":150,
+			"chars":["\uC001"]
+		},
+		{
+			"type":"bitmap",
+			"file":"font/200.png",
+			"ascent":150,
+			"height":150,
+			"chars":["\uC002"]
+		},
+		{
+			"type":"bitmap",
+			"file":"font/300.png",
+			"ascent":150,
+			"height":150,
+			"chars":["\uC003"]
+		},
+		{
+			"type":"bitmap",
+			"file":"font/400.png",
+			"ascent":150,
+			"height":150,
+			"chars":["\uC004"]
+		},
+		{
+			"type":"bitmap",
+			"file":"font/500.png",
+			"ascent":150,
+			"height":150,
+			"chars":["\uC005"]
 		}
 	]
 }
