@@ -34,6 +34,13 @@
 			"ascent":150,
 			"height":150,
 			"chars":["\uC005"]
+		},
+		{
+			"type":"bitmap",
+			"file":"font/600.png",
+			"ascent":150,
+			"height":150,
+			"chars":["\uC006"]
 		}
 	]
 }
