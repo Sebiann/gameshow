@@ -44,6 +44,27 @@
 		},
 		{
 			"type":"bitmap",
+			"file":"font/700.png",
+			"ascent":150,
+			"height":150,
+			"chars":["\uC007"]
+		},
+		{
+			"type":"bitmap",
+			"file":"font/800.png",
+			"ascent":150,
+			"height":150,
+			"chars":["\uC008"]
+		},
+		{
+			"type":"bitmap",
+			"file":"font/900.png",
+			"ascent":150,
+			"height":150,
+			"chars":["\uC009"]
+		},
+		{
+			"type":"bitmap",
 			"file":"font/text1.png",
 			"ascent":140,
 			"height":140,
