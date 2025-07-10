@@ -41,6 +41,41 @@
 			"ascent":150,
 			"height":150,
 			"chars":["\uC006"]
+		},
+		{
+			"type":"bitmap",
+			"file":"font/text1.png",
+			"ascent":140,
+			"height":140,
+			"chars":["\uC021"]
+		},
+		{
+			"type":"bitmap",
+			"file":"font/text2.png",
+			"ascent":140,
+			"height":140,
+			"chars":["\uC022"]
+		},
+		{
+			"type":"bitmap",
+			"file":"font/text3.png",
+			"ascent":140,
+			"height":140,
+			"chars":["\uC023"]
+		},
+		{
+			"type":"bitmap",
+			"file":"font/text4.png",
+			"ascent":140,
+			"height":140,
+			"chars":["\uC024"]
+		},
+		{
+			"type":"bitmap",
+			"file":"font/text5.png",
+			"ascent":140,
+			"height":140,
+			"chars":["\uC025"]
 		}
 	]
 }
