@@ -1,6 +1,10 @@
 {
   "pack": {
-    "pack_format": 55,
-    "description": "Gameshow Resource Pack for _TheGamemaster_"
+    "pack_format": 64,
+    "description": "Gameshow Resource Pack for _TheGamemaster_",
+    "supported_formats": {
+      "min_inclusive": 55,
+      "max_inclusive": 64
+    }
   }
 }
