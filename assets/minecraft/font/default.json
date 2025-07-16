@@ -65,6 +65,27 @@
 		},
 		{
 			"type":"bitmap",
+			"file":"font/1200.png",
+			"ascent":130,
+			"height":130,
+			"chars":["\uC012"]
+		},
+		{
+			"type":"bitmap",
+			"file":"font/1400.png",
+			"ascent":130,
+			"height":130,
+			"chars":["\uC014"]
+		},
+		{
+			"type":"bitmap",
+			"file":"font/1600.png",
+			"ascent":130,
+			"height":130,
+			"chars":["\uC016"]
+		},
+		{
+			"type":"bitmap",
 			"file":"font/text1.png",
 			"ascent":140,
 			"height":140,
